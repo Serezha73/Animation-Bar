@@ -4,4 +4,4 @@
 
 Реализовал небольшой проект, используюя знания полученые на курсе.
 
-<a href="https://codepen.io/Serezha73/full/poZLyKP">МОЙ ПРОЕКТ</a>
+<a href="https://codepen.io/Serezha73/full/poZLyKP" target="_blank">Посмотреть проект</a>
