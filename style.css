@@ -19,3 +19,22 @@ body {
     background: #fff;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
+
+.loader:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #ff0095, #0000f4, #00ff00, #ffff00,  #ff0095, #0000f4, #00ff00, #ffff00, #ff0095);
+    animation: animate 15s linear infinite;
+    background-size: 500%;
+}
+
+.loader:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #ff0095, #0000f4, #00ff00, #ffff00,  #ff0095, #0000f4, #00ff00, #ffff00, #ff0095);
+    animation: animate 20s linear infinite;
+    background-size: 500%;
+    filter: blur(30px);
+}
